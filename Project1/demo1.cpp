@@ -10,17 +10,15 @@
 
 
 int main() {
-	int a; 
-	int b;
-	int c;
-	std::cin >> a;
-	std::cin >> b;
-	c = a + b;
-	std::cout << c << std::endl;
-	std::cout << "Hello World " << std::endl;
+	int i = 100, sum = 0;
+	for (int i = 0; i != 10; ++i)  
+	{
+		sum += i;
+		std::cout << i << " " << sum << std::endl;
+	}
+
+	std::cout << i << " " << sum << std::endl;
+
 	system("pause");
-	return 1;
 
-
-	
 }
